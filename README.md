@@ -1,2 +1,1 @@
-# 01Class-Projects
-Bootcamp's projects
+# Zero One Class Projects
