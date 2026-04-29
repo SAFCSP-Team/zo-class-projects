@@ -21,7 +21,7 @@ Drink type
 
 
 ## Byte Structure
-![Byte](image-1.png)
+![Byte Structure Diagram](./Byte.png)
 
 ## How It Works
 - User inputs a number between 0 and 255
