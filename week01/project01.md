@@ -19,7 +19,7 @@ A single byte (8 bits) is divided into segments, where each segment represents a
 
 
 ### Byte Structure
-![Byte Structure Diagram](./Byte.png)
+![Byte Structure Diagram](./images/coffeMachine.png)
 
 ### How It Works
 - User inputs a number between 0 and 255
@@ -37,5 +37,5 @@ Binary
 ```
 Output
 ```
-glass cup - milk - no sugar - big - cold - black coffee 
+glass cup - milk - no sugar - large - cold - black coffee 
 ```
