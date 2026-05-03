@@ -2,9 +2,7 @@
 A bit-level simulation of a coffee machine that generates drinks based on a single byte.
 
 ## Overview 
-This project demonstrates how a single byte (8 bits) can represent multiple configurations in a system.
-
-Instead of focusing on a specific programming language, this project focuses on low-level thinking—how data can be encoded and interpreted at the bit level.
+This project demonstrates how a single byte (8 bits) can represent multiple configurations in a system. Instead of focusing on a specific programming language, this project focuses on low-level thinking, which explains how data can be encoded and interpreted at the bit level.
 
 The application simulates a coffee machine where each bit in a byte controls a specific drink property.
 
@@ -12,23 +10,28 @@ The application simulates a coffee machine where each bit in a byte controls a s
 
 A single byte (8 bits) is divided into segments, where each segment represents a drink attribute:
 
-Cup type
-Milk
-Sugar
-Size
-Temperature (Hot/Cold)
-Drink type
+- Cup type
+- Milk
+- Sugar
+- Size
+- Temperature (Hot/Cold)
+- Drink type
 
 
+<<<<<<< HEAD
 ## Byte Structure
 ![Byte Structure Diagram](./Byte.png)
+=======
+### Byte Structure
+![Byte Structure Diagram](./images/coffeMachine.png)
+>>>>>>> f0d5a55d5b243a99fbd95c721b79421298b72520
 
-## How It Works
+### How It Works
 - User inputs a number between 0 and 255
 - The number is converted to 8-bit binary
 - Each bit segment is decoded into drink attributes
 - The final drink is generated
-### Example
+## Example
 Input
 ```
 77
@@ -39,5 +42,5 @@ Binary
 ```
 Output
 ```
-black coffe cold big no sugar milk glass cup
+glass cup - milk - no sugar - large - cold - black coffee 
 ```
