@@ -18,13 +18,12 @@ A single byte (8 bits) is divided into segments, where each segment represents a
 - Drink type
 
 
-<<<<<<< HEAD
+
 ## Byte Structure
-![Byte Structure Diagram](./Byte.png)
-=======
+
 ### Byte Structure
 ![Byte Structure Diagram](./images/coffeMachine.png)
->>>>>>> f0d5a55d5b243a99fbd95c721b79421298b72520
+
 
 ### How It Works
 - User inputs a number between 0 and 255
