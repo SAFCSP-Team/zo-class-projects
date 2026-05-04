@@ -21,7 +21,9 @@ Each input value is decoded into a full match description.
 
 
 ### Byte Structure
+<!--
 ![Byte Structure Diagram](./2Bytes.png)
+-->
 
 
 ### How It Works
@@ -41,8 +43,15 @@ Binary
 0011 1110 0111 1100
 ```
 Output
+<!-- 
 ```
 Al-Etifag Team against Al-qadisiah Team on alqadisiah stadium alqadisiah win on King Cup forgein refree
 ```
+--> 
 
-<!-- foreign refree - King Cup - Home - Draw --> 
+```
+foreign referee - king cup - alqadisiah stadium - draw - Al Qadisiyah team - Al Etifag team
+```
+
+> [!NOTE]
+> The team values are specified based on your order. For our example, team A `10011` is Al Qadisiyah, and team B `11100` is Al Etifag.
