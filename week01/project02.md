@@ -2,9 +2,7 @@
 A bit-level simulation of Saudi local football matches using a 16-bit word (2 bytes) to encode match details.
 
 ## Overview 
-This project demonstrates how 2 bytes (16 bits) can represent a complete system configuration.
-
-Instead of focusing on a specific programming language, the project emphasizes low-level data representation how structured information (like a football match) can be encoded and decoded using binary.
+This project demonstrates how 2 bytes (16 bits) can represent a complete system configuration. It emphasizes low-level data representation, on how structured information (like a football match) can be encoded and decoded using binary.
 
 The application simulates a football match where each group of bits defines a specific match attribute.
 
@@ -27,10 +25,12 @@ Each input value is decoded into a full match description.
 
 
 ### How It Works
-- User inputs a 4 digits hexadecimal number 
+- User inputs a 4-digit hexadecimal number 
 - The number is converted to 16-bit binary
-- Each bit segment is decoded into Match property
+- Each bit segment is decoded into the match property
 - The Match result is generated
+
+
 ## Example
 Input
 ```
@@ -44,3 +44,5 @@ Output
 ```
 Al-Etifag Team against Al-qadisiah Team on alqadisiah stadium alqadisiah win on King Cup forgein refree
 ```
+
+<!-- foreign refree - King Cup - Home - Draw --> 
