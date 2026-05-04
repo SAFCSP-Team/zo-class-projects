@@ -21,9 +21,9 @@ Each input value is decoded into a full match description.
 
 
 ### Byte Structure
-<!--
-![Byte Structure Diagram](./2Bytes.png)
--->
+
+![Byte Structure Diagram](./images/match.png)
+
 
 
 ### How It Works
