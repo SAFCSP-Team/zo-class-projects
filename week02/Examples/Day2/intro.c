@@ -45,7 +45,7 @@ int op2(int input) /* interface */
 int main(){
     int r = sum(100, 200);
 
-    // 1. seq
+    // 1. sequential
     int x = 10;
     int y = x * 2;
     x++;
@@ -94,7 +94,7 @@ int main(){
 
     }
 
-    // function: f(x)
+    //4. function: f(x)
 
     int result = sum(1, 2) + sum(5, 5) + sub(1, 4); // call
     x++;
