@@ -1,0 +1,10 @@
+dynamic loader
+
+event listener (hooks, callback)
+    - pre_tokenization
+    - pre_tokenize
+        - on_token
+    - post_tokenize
+    - post_tokenization
+
+application: parser, formater with its datastructure (indent)
