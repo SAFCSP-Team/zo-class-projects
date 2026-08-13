@@ -6,4 +6,4 @@ This project facilitates live video and audio streaming from the server to the c
 
 
 ### Project Structure
-![Project Structure Diagram](../images/CameraServer.png)
+![Project Structure Diagram](../images/Camera_Server.png)
